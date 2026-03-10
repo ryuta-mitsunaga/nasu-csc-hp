@@ -26,9 +26,9 @@
     @apply bg-bg text-text font-serif leading-relaxed;
     font-family: "Shippori Mincho", "Zen Maru Gothic", sans-serif;
     line-height: 1.9;
-    background-image: url("../img/background.png");
+    background-image: url("/background.png");
     background-repeat: repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 
   a {

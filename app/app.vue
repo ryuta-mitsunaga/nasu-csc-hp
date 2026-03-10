@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NuxtLoadingIndicator color="var(--color-accent)" />
     <NuxtLayout>
       <!-- <Transition name="page-fade" mode="out-in" appear> -->
         <NuxtPage />

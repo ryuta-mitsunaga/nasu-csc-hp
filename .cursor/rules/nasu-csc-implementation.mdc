@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+description: 那須町総合型地域スポーツクラブのフロントエンド実装におけるコンポーネント設計ルール
+---
+
+# nasu-csc Implementation Rule
+
+## スタイル
+- スタイルは Tailwind CSS のユーティリティクラスで記述する。
+- カラー定義は `app/assets/css/main.css` の `@theme` 内で行う。利用可能なトークン:
+  - `bg`, `bg-soft`, `main`, `main-deep`, `accent`, `text`, `border`, `muted`, `overlay`
+  - 例: `bg-bg`, `text-main`, `border-border`, `text-accent`
+
+## 実装ルール（コンポーネント設計）
+- UIは可能な限りコンポーネント化し、1つのファイルに実装を集中させない。
+- ページの骨組みやセクション構造を表す部品は `app/components/template` に配置する。
+- ボタンなど複数箇所で再利用する共通UIは `app/components/base` に配置する。
+- 新規実装時は、まず既存の `app/components/base` を再利用できるか確認し、必要な場合のみ新規作成する。

@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: '（仮称）那須町総合型地域スポーツクラブ',
+      meta: [
+        { name: 'robots', content: 'noindex, nofollow' },
+      ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },

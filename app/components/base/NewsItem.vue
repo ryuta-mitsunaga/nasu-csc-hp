@@ -22,7 +22,7 @@ function formatDate(iso?: string) {
       <time
         v-if="item.publishedAt"
         :datetime="item.publishedAt"
-        class="text-muted text-sm"
+        class="text-muted text-base"
       >
         {{ formatDate(item.publishedAt) }}
       </time>
@@ -38,7 +38,7 @@ function formatDate(iso?: string) {
         {{ item.category[0].name }}
       </span>
     </div>
-    <h3 class="min-w-0 text-main-deep text-base line-clamp-2">
+    <h3 class="min-w-0 text-main-deep text-lg line-clamp-2">
       {{ item.title }}
     </h3>
   </article>

@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     microcmsApiBase: '',
     microcmsApiKey: '',
   },
-  css: ['./app/assets/css/main.css'],
+  css: ['./app/assets/css/main.css', 'swiper/swiper-bundle.css'],
   vite: {
     plugins: [tailwindcss()],
   },
@@ -23,8 +23,9 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho:wght@400;500;600&family=Zen+Maru+Gothic:wght@400;500;700&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho:wght@400;500;600&family=Zen+Maru+Gothic:wght@400;500;700',
         },
+        { rel: 'preload', href: '/background.png', as: 'image' },
       ],
     },
     pageTransition: {

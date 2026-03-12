@@ -12,7 +12,7 @@ const links = [
 </script>
 
 <template>
-  <div class="px-5 py-20">
+  <div class="px-5 py-10">
     <div class="mx-auto max-w-[1080px]">
       <BaseSectionTitle title="SNS等のリンク" subtitle="Links" />
       <p class="mb-12 text-text">

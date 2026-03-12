@@ -14,7 +14,7 @@ const { data: club } = await useFetch<ClubItem>(
 </script>
 
 <template>
-  <div class="px-5 py-20">
+  <div class="px-5 py-10">
     <div class="mx-auto max-w-[720px]">
       <NuxtLink
         to="/clubs"

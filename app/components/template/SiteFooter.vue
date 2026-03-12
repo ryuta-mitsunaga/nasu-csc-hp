@@ -16,7 +16,7 @@ const footerNavItems = [
   <footer class="border-t border-border">
     <div class="mx-auto max-w-[1080px] px-5 py-8 pb-10">
       <nav class="mb-6">
-        <ul class="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+        <ul class="flex flex-wrap gap-x-6 gap-y-2 text-base">
           <li v-for="item in footerNavItems" :key="item.label">
             <NuxtLink
               :to="item.to"
@@ -28,7 +28,7 @@ const footerNavItems = [
         </ul>
       </nav>
       <p class="m-0 text-main">（仮称）那須町総合型地域スポーツクラブ</p>
-      <p class="mt-2 m-0 text-muted text-sm">© 那須町総合型地域スポーツクラブ</p>
+      <p class="mt-2 m-0 text-muted text-base">© 那須町総合型地域スポーツクラブ</p>
     </div>
   </footer>
 </template>

@@ -14,7 +14,7 @@ const { data: newsItem, pending, error } = await useFetch<NewsItem>(
 </script>
 
 <template>
-  <div class="px-5 py-20">
+  <div class="px-5 py-10">
     <div class="mx-auto max-w-[720px]">
       <NuxtLink
         to="/news"

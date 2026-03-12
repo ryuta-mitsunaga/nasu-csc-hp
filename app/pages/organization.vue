@@ -5,7 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="px-5 py-20">
+  <div class="px-5 py-10">
     <div class="mx-auto max-w-[1080px]">
       <BaseSectionTitle title="組織紹介" subtitle="Organization" />
       <div class="prose text-text">

@@ -23,7 +23,7 @@ function closeMenu() {
   <header class="sticky top-0 z-50 border-b border-border backdrop-blur-sm">
     <div class="mx-auto flex max-w-[1080px] items-center justify-between px-5 py-4">
       <NuxtLink to="/" class="block" @click="closeMenu">
-        <p class="font-display text-main text-sm">（仮称）那須町総合型地域スポーツクラブ</p>
+        <p class="font-display text-main text-base">（仮称）那須町総合型地域スポーツクラブ</p>
       </NuxtLink>
 
       <nav class="hidden items-center gap-6 md:flex">
@@ -31,7 +31,7 @@ function closeMenu() {
           v-for="item in navItems"
           :key="item.label"
           :to="item.to"
-          class="text-main-deep text-sm hover:text-accent transition-colors"
+          class="text-main-deep text-base hover:text-accent transition-colors"
         >
           {{ item.label }}
         </NuxtLink>

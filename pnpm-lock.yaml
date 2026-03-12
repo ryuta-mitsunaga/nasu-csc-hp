@@ -8,6 +8,9 @@ dependencies:
   nuxt:
     specifier: ^4.3.1
     version: 4.3.1(@vue/compiler-sfc@3.5.29)(vite@7.3.1)
+  swiper:
+    specifier: ^12.1.2
+    version: 12.1.2
   vue:
     specifier: ^3.5.29
     version: 3.5.29
@@ -5544,6 +5547,11 @@ packages:
       csso: 5.0.5
       picocolors: 1.1.1
       sax: 1.5.0
+    dev: false
+
+  /swiper@12.1.2:
+    resolution: {integrity: sha512-4gILrI3vXZqoZh71I1PALqukCFgk+gpOwe1tOvz5uE9kHtl2gTDzmYflYCwWvR4LOvCrJi6UEEU+gnuW5BtkgQ==}
+    engines: {node: '>= 4.7.0'}
     dev: false
 
   /system-architecture@0.1.0:
